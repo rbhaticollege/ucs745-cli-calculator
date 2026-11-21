@@ -9,8 +9,8 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Error: Division by zero is undefined."
-    return round(a / b, 4)
+        return "[WARN] Division by zero is undefined."
+    return f"{a} / {b} = {round(a / b, 4)}"
 
 def power(a, b):
     return a ** b
