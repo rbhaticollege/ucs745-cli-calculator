@@ -9,8 +9,8 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "Error: Division by zero"
-    return a / b
+        return "[WARN] Cannot divide by zero."
+    return f"{a} / {b} = {a / b}"
 
 def power(a, b):
     return a ** b
